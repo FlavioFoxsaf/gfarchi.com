@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriela Fernandes - Architecture & Design</title>
+    <meta name="description" content="Gabriela Fernandes - Registered Architect in Sydney. Architecture, interiors and career guidance for architects moving to Australia.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header: Language Toggle -->
+        <header>
+            <button id="langToggle" class="lang-toggle" aria-label="Toggle language">
+                <span id="langEn" class="active">EN</span>
+                <span class="divider">|</span>
+                <span id="langPt">PT</span>
+            </button>
+        </header>
+
+        <!-- Profile Section -->
+        <main>
+            <section class="profile">
+                <div class="profile-img-container">
+                    <img src="profile.png" alt="Gabriela Fernandes" class="profile-img">
+                </div>
+                <h1 class="name">Gabriela Fernandes</h1>
+            </section>
+
+            <!-- About Section -->
+            <section class="about">
+                <p class="translatable"
+                   data-en="Registered Architect based in Sydney, Australia with 10 years of local experience."
+                   data-pt="Arquiteta Registrada atuando em Sydney, Austrália, com 10 anos de experiência local.">
+                   Registered Architect based in Sydney, Australia with 10 years of local experience.
+                </p>
+                <p class="translatable"
+                   data-en="In addition to my design work, I support overseas architects and graduates with career pathways in Australia, including CV and portfolio reviews, job strategy, overseas qualification assessment and registration process and mock interviews."
+                   data-pt="Além do meu trabalho com projetos, ofereço suporte para arquitetos e recém-formados estrangeiros sobre caminhos de carreira na Austrália, incluindo revisão de currículo e portfólio, estratégia de busca por vagas, processo de validação de diploma e registro profissional, além de simulação de entrevistas.">
+                   In addition to my design work, I support overseas architects and graduates with career pathways in Australia, including CV and portfolio reviews, job strategy, overseas qualification assessment and registration process and mock interviews.
+                </p>
+                <p class="translatable"
+                   data-en="For career guidance, design consultations or project enquiries, feel free to send a message in the links below."
+                   data-pt="Para mentoria de carreira, consultoria de projetos ou outras dúvidas, sinta-se à vontade para enviar uma mensagem nos links abaixo.">
+                   For career guidance, design consultations or project enquiries, feel free to send a message in the links below.
+                </p>
+            </section>
+
+            <!-- Links Section -->
+            <nav class="links">
+                <a href="https://www.linkedin.com/in/gabrielasandesaraujofernandes/" target="_blank" class="link-btn">
+                    <i class="ph ph-linkedin-logo"></i>
+                    <span class="translatable" data-en="LinkedIn" data-pt="LinkedIn">LinkedIn</span>
+                </a>
+                <a href="https://www.instagram.com/gf.archi" target="_blank" class="link-btn">
+                    <i class="ph ph-instagram-logo"></i>
+                    <span class="translatable" data-en="Instagram" data-pt="Instagram">Instagram</span>
+                </a>
+                <a href="https://www.tiktok.com/@gf.archi" target="_blank" class="link-btn">
+                    <i class="ph ph-tiktok-logo"></i>
+                    <span class="translatable" data-en="TikTok" data-pt="TikTok">TikTok</span>
+                </a>
+                <a href="https://wa.me/61478841856?text=Hi%20Gabriela,%20I%20would%20like%20to%20get%20more%20information%20about%20your%20services." target="_blank" class="link-btn">
+                    <i class="ph ph-whatsapp-logo"></i>
+                    <span class="translatable" data-en="WhatsApp" data-pt="WhatsApp">WhatsApp</span>
+                </a>
+                <button id="emailBtn" class="link-btn" aria-label="Copy Email">
+                    <i class="ph ph-envelope-simple"></i>
+                    <span class="translatable" data-en="Email (gsaf.architect@gmail.com)" data-pt="E-mail (gsaf.architect@gmail.com)">Email (gsaf.architect@gmail.com)</span>
+                </button>
+            </nav>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/gf.archi" target="_blank" aria-label="Instagram"><i class="ph ph-instagram-logo"></i></a>
+                <a href="https://www.linkedin.com/in/gabrielasandesaraujofernandes/" target="_blank" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+                <a href="https://www.tiktok.com/@gf.archi" target="_blank" aria-label="TikTok"><i class="ph ph-tiktok-logo"></i></a>
+            </div>
+            <p class="translatable" data-en="© Gabriela Fernandes — Registered Architect in Sydney" data-pt="© Gabriela Fernandes — Arquiteta Registrada em Sydney">© Gabriela Fernandes — Registered Architect in Sydney</p>
+        </footer>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">Email copied to clipboard!</div>
+    <script src="script.js"></script>
+</body>
+</html>
